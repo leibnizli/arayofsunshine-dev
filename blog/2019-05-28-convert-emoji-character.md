@@ -1,0 +1,29 @@
+---
+slug: convert-emoji-character-to-unicode-number-in-javascript
+title: Convert emoji character to Unicode number in JavaScript
+authors:
+  name: leibnizli
+  title: Convert emoji character to Unicode number in JavaScript
+  url: https://github.com/leibnizli
+  image_url: https://github.com/leibnizli.png
+tags: [emoji]
+---
+
+# Convert emoji character to Unicode number in JavaScript
+
+```js
+console.log('☃★♲'.codePointAt(1));
+// output: "9733"
+
+console.log(String.fromCodePoint(9731, 9733, 9842, 0x2F804));
+// output: "☃★♲你"
+
+let hex = "😀".codePointAt(0).toString(16);
+console.log(hex);
+// output: 1f600
+
+console.log(String.fromCodePoint("0x"+hex));
+// output: 😀
+```
+
+<a href="https://gadgets.gotomorrow.dev/unicode">Unicode encode/Unicode decode/Emoji encode/Emoji decode</a>

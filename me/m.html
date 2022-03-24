@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script> if (!/iPhone|Android/i.test(navigator.userAgent) ) { location.href='index.html'; }
+</script>
+<meta charset="UTF-8" />
+<title>前端开发/UI开发-***</title>
+<meta name="viewport" content="width=640, user-scalable=no">
+<style>
+body, h1, p, dl, dt, dd, figure { margin: 0; padding: 0; }
+body { position:relative; max-width:640px; margin:0 auto; font: 28px/1.6 Arial,Tahoma,Helvetica; color: #3E3E3E; background: #040519; }
+a img { border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+ul { margin:0 auto;}
+html,body { width:100%; height:100%; }
+@-webkit-keyframes rotate-loading {
+    0% {  -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes rotate-loading {
+    0% {  -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+.loading-container { position:absolute; top:50%; left:50%; margin:-100px 0 0 -100px; }
+.loading-container, .loading { width:200px; height:200px; position: relative; border-radius: 100%; }
+.loading { border: 2px solid transparent; border-color: transparent #fff transparent #FFF; -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: rotate-loading 1.5s linear 0s infinite normal; animation: rotate-loading 1.5s linear 0s infinite normal; }
+.loading-container:hover .loading { border-color: transparent #E45635 transparent #E45635; }
+.loading-container:hover .loading, .loading-container .loading { -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out;}
+#loading-text { position: absolute; top: 0; width:200px; margin-top: 90px; font-size:20px; color: rgba(255,255,255,1); font-weight: bold; text-align: center; text-transform: uppercase;  }
+</style>
+</head>
+<body ontouchstart="">
+<div class="loading-container"><div class="loading"></div><div id="loading-text">loading</div></div>
+<div id="orientLayer" class="ui-orientlayer" style="display:none">
+    <div class="ui-orientlayer-content">
+        <i class="icon ui-orientlayer-icon-orient"></i>
+        <div class="ui-orientlayer-desc">为了更好的体验，请使用竖屏浏览</div>
+    </div>
+</div>
+<div class="wrap" id="wrap" style="display:none;">
+    <i id="music" class="music" data-src="music/music.mp3?v=1.1"></i>
+    <div class="container" id="container">
+        <div class="scene first current">
+            <div class="meteor" id="meteor"></div>
+            <div class="star" id="star"></div>
+            <p class="first-declaration">我的征途是星辰大海</p>
+            <div class="earth"></div>
+            <div class="arrow animated fadeIn"></div>
+        </div>
+        <div class="scene case">
+            <ul class="case-list">
+                <li><a target="_blank" href="http://lab.thunkli.com/qqpai/my/order_detail_v3.html">订单</a></li>
+                <li><a target="_blank" href="http://lab.thunkli.com/qqpai/card/shop.html">店铺</a></li>
+                <li><a target="_blank" href="http://lab.thunkli.com/qqpai/card/goods.html">商品</a></li>
+                <li><a target="_blank" href="http://lab.thunkli.com/qqpai/card/my.html">红包</a></li>
+            </ul>
+        </div>        
+    </div>
+</div>
+<script src="script-min.js?t=1610820016"></script>
+</body>
+</html>

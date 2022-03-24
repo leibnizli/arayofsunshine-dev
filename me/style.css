@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('//at.alicdn.com/t/font_1439901470_453866.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/font_1439901470_453866.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/font_1439901470_453866.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/font_1439901470_453866.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/font_1439901470_453866.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    /*-webkit-text-stroke-width: 0.2px;*/
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-doc:before { content: "\e601"; }
+.icon-pdf:before { content: "\e602"; }
+.icon-download:before { content: "\e600"; }body, h1, p, dl, dt, dd, figure { margin: 0; padding: 0; }
+body { width:100%; font: 14px/1.6 Arial,Tahoma,"hiragino sans gb",Helvetica; color: #3E3E3E; background: #fff; overflow-x:hidden; }
+img { vertical-align:top; }
+a img { border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+ul { margin:0 auto; padding:0; }
+button, input, select, textarea { font: 14px/1.42857 'helvetica neue', tahoma, sans-serif; overflow:visible; }
+.ui-clear:after { display:block; height:0; clear:both; content:"";}
+.wrap { }
+/*---*/
+.qrcode { padding:280px 0 200px; padding:calc(100vh - 320px - 200px - 100px + 20px) 0 200px; text-align:center; background:#282b2d; }
+    .qrcode img { background:#fff; }
+/*case*/
+.case { /*margin-bottom:50px;*/  }
+    .case-bd { position:relative; z-index:1; width:768px; height:320px; margin:0 auto; }
+    .case-list { position:absolute; left:50%; top:-120px; z-index:1; width:1050px; margin-left:-525px; }
+        .case li { float:left; position:relative; width:200px; height:300px; margin-left:0px; padding-bottom:15px; padding-top:15px; list-style:none; background:#fff; box-shadow:0 18px 30px rgba(0, 0, 0, 0.27); overflow:hidden; }
+            .case-pic { overflow:hidden; }
+            .case img { width:100%; height:auto; transition:transform 0.3s ease; background: url("data:image/gif;base64,R0lGODlhKwAeAJEAAP///93d3Xq9VAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFFAAAACwDAA0AJQADAAACEpSPAhDtHxacqcr5Lm416f1hBQAh+QQJFAAAACwDAA0AJQADAAACFIyPAcLtDKKcMtn1Mt3RJpw53FYAACH5BAkUAAAALAMADQAlAAMAAAIUjI8BkL0CoxQtrYrenPjcrgDbVAAAOw==") no-repeat center center; vertical-align:top; }
+            .case img:hover {  /*transform:scale(1.05);*/ }
+            .case-player { display:none; position:absolute; left:50%; top:50%; width:52px; height:52px; margin:-26px 0 0 -26px; background:url("images/player.png") no-repeat 0 0; }
+            .case li:hover .case-player { display:block; }
+        .case li.case-item-1 { width:170px; height:255px; top:22px; padding-left:15px; }
+        .case li.case-item-2 { padding-left:15px; }
+        .case li.case-item-3 { top:-15px; z-index:5; width:220px; height:330px; padding:15px; background:#fff; }
+        .case li.case-item-4 { z-index:4; padding-right:15px; }
+        .case li.case-item-5 {  width:170px; height:255px; top:22px; padding-right:15px; }
+
+
+
+/*main*/
+.main { position:relative; max-width: 740px; min-height:400px; margin:0 auto 50px; color:#666; }
+    .main-hd { position:absolute; left:0; top:0; }
+        .main-me { }
+    .main-bd { padding-left:180px; }
+        .main-table { width: 100%; }
+            .main td { vertical-align:top; font-size:14px; }
+            .main td span { font-size:12px; color:#999; }
+            .main-list { margin:10px 0 10px; overflow:hidden; /*border-bottom:dotted 1px #bbb;*/ }
+                .main-list-study, .main-list-share { margin-top:0; }
+                .main-list li { padding:0 0 3px; line-height:1.4; }
+            .main-tag { width:76px; text-align:right; color:#000; font-weight:bold; }
+            .main-stress { color:#c00; }
+            .work { }
+                .work-wrap { margin:0 0 -5px; }
+                    .work-item { position:relative; margin-bottom:15px; padding-bottom:10px; border-bottom:solid 1px #eee; }
+                    .work-item:last-child { /*border:none; margin-bottom:0;*/ }
+                    .work-logo { position:absolute; left:-70px; top:0; width:50px; height:50px; line-height:50px; color:#fff; text-align:center; }
+                    .work-logo img { vertical-align:middle; }
+                    .work-logo-jmgo { background:#000; }
+                    .work-logo-jd { background:#ca2b30; }
+                    .work-logo-alimama { background:#e94b24; }
+                    .work-table { width:100%; }
+                        .work-table td { /*border:solid 1px #bbb;*/ padding:2px 5px; }
+                        .work-table td.work-tag { width:70px; text-align:right; color:#333; font-weight:bold; }
+                        .work-duty { padding:3px 0 3px 24px; /*font-size:12px;*/ list-style:square; }
+
+
+/*--footer--*/
+.footer { font-size:14px; padding:50px 0 250px; color:#999; background:#282b2d; }
+    .footer-bd { position:relative; z-index:1; width:680px; margin:0 auto; text-align:center; }
+        .footer-me { text-align:center; }
+        .footer-me img { opacity:0.5; }
+        .footer-me img:hover { opacity:1; }
+        .footer-download a { display: inline-block; color: #999; text-decoration: none;  padding:30px 100px; border: dashed 3px rgba(255,255,255,0.2); border-radius: 8px; text-align:center; font-size:12px; }
+        .footer-download a:before { display:block; font-size:24px; line-height:1.2; }
+        .footer-download a:nth-child(1) { margin-right:20px; }
+        .footer-download a:hover { border-color:rgba(255,255,255,0.3); }
+        .footer-download a:hover:before { color:#48e0a4; }
+        .contact { padding: 0 3px; color: #999; }
+        .cnzz { height: 0; overflow: hidden; font-size: 0; }
+@media screen and (max-width: 980px) {
+    .case-list { width:680px; margin-left:-340px; }
+    .case li.case-item-1,.case li.case-item-5 { display:none; }
+}
+/*@media screen and (max-width: 780px) {
+    .main { width:720px; }
+    .case { width:720px; }
+        .case li { padding:10px; box-shadow:0 0 5px rgba(0, 0, 0, 0.47); }
+        .case li:nth-child(1) { padding:0 0 10px 10px; }
+        .case li:nth-child(2) { padding:0 10px 10px; }
+        .case li:nth-child(3) { padding:0 10px 10px 0;}
+    .footer-bd { width:680px; }
+}*/
+
