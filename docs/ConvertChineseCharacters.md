@@ -6,9 +6,9 @@ sidebar_position: 4
 
 Plugin for Sublime text for convert chinese characters, allowing you to convert your .js, .json, and .css files.
 
-![1](https://cloud.githubusercontent.com/assets/1193966/12030060/63ded0e2-ae33-11e5-8f76-b9b2cc34e14e.gif)
+![ConvertChineseCharacters](https://cloud.githubusercontent.com/assets/1193966/12030060/63ded0e2-ae33-11e5-8f76-b9b2cc34e14e.gif)
 
-![2](https://cloud.githubusercontent.com/assets/1193966/12030061/63e3fac2-ae33-11e5-9a50-78b9ebf2d6e1.gif)
+![ConvertChineseCharacters](https://cloud.githubusercontent.com/assets/1193966/12030061/63e3fac2-ae33-11e5-9a50-78b9ebf2d6e1.gif)
 
 ## Features
 

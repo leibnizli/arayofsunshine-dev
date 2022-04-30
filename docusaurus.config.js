@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'GOTOMORROW',
   tagline: 'gotomorrow.dev',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://gotomorrow.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -30,8 +30,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        googleAnalytics: {
-          trackingID: 'G-3JNLD1VEYD'
+        gtag: {
+          trackingID: 'G-3JNLD1VEYD',
+          anonymizeIP: false,
         },
       }),
     ],
@@ -79,9 +80,13 @@ const config = {
           {
             title: 'Community',
             items: [
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com/LeibnizLi',
+              // },
               {
-                label: 'Twitter',
-                href: '/',
+                label: 'GitHub',
+                href: 'https://github.com/leibnizli',
               },
             ],
           },
@@ -93,13 +98,13 @@ const config = {
                 to: '/about',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/leibnizli',
+                label: '中文博客',
+                href: 'https://blog.gotomorrow.dev',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GOTOMORROW, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GOTOMORROW, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -12,10 +12,6 @@ After you pick a color, Hex format code will automatically copied to your clipbo
 
 
 ## Download
-macOS v1.0，Support for macOS Catalina+.
-* [Github](https://github.com/leibnizli/RGB/releases/download/1.0.0/RGB_1.0.dmg)
 
-## Donate
-
-[PayPal](https://www.paypal.me/thunkli)
+* [RGB_1.0](https://github.com/leibnizli/RGB/releases/download/1.0.0/RGB_1.0.dmg) (Support for macOS Catalina+)
 

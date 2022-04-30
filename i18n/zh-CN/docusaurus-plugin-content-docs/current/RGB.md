@@ -11,6 +11,6 @@ sidebar_position: 3
 选择颜色后，十六进制格式代码将自动复制到剪贴板。
 
 ## 下载
-macOS v1.0，Support for macOS Catalina+.
-* [Github](https://github.com/leibnizli/RGB/releases/download/1.0.0/RGB_1.0.dmg)
+
+* [RGB_1.0](https://github.com/leibnizli/RGB/releases/download/1.0.0/RGB_1.0.dmg) （支持macOS Catalina+）
 

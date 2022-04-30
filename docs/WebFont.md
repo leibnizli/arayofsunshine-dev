@@ -19,5 +19,8 @@ Keyboard shortcuts:
 
 Right click to export the selected glyphs; or use the batch export from the menu.
 
-## Dwonload from App Store
-* <a href="https://itunes.apple.com/us/app/id1181350496">English</a>
+## Dwonload 
+* <a href="https://apps.apple.com/app/id1181350496">App Store</a>
+
+## Comments
+* <a href="https://github.com/leibnizli/WebFont/issues">Issues</a>

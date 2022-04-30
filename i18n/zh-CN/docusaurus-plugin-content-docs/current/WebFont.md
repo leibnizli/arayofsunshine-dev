@@ -19,5 +19,9 @@ WebFont是一个字体处理客户端，它可以把字体文件中的指定字�
 选中字形点击右键快速导出单个字形，从菜单栏批量导出选中的字形
 
 
-## App Store
-* <a href="https://itunes.apple.com/cn/app/id1181350496">简体中文</a>
+## 下载
+
+* <a href="https://apps.apple.com/cn/app/id1181350496">App Store</a>
+
+## 评论
+* <a href="https://github.com/leibnizli/WebFont/issues">Issues</a>
