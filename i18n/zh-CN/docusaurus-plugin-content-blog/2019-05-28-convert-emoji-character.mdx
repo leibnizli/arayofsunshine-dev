@@ -7,19 +7,56 @@ tags: [emoji]
 
 # JavaScript转换emoji字符为Unicode编码
 
+## String.prototype.codePointAt
+
 ```js
-console.log('☃★♲'.codePointAt(1));
+'☃★♲'.codePointAt(0);
+// output: "9731"
+'☃★♲'.codePointAt(1);
 // output: "9733"
+'☃★♲'.codePointAt(2);
+// output: "9842"
 
-console.log(String.fromCodePoint(9731, 9733, 9842, 0x2F804));
-// output: "☃★♲你"
+"😀".codePointAt(0);
+// output: "128512"
+"😀".codePointAt(1);
+// output: "56832"
+"😀".codePointAt(0).toString(16);
+// output: "1f600"
+'😀'.length
+// output: "2"
 
-let hex = "😀".codePointAt(0).toString(16);
-console.log(hex);
-// output: 1f600
-
-console.log(String.fromCodePoint("0x"+hex));
-// output: 😀
+"🇺🇸".codePointAt(0);
+// output: "127482"
+"🇺🇸".codePointAt(1);
+// output: "56826"
+"🇺🇸".codePointAt(2);
+// output: "127480"
+"🇺🇸".codePointAt(3);
+// output: "56824"
+'🇺🇸'.length
+// output: "4"
 ```
 
-<a href="https://gadgets.gotomorrow.dev/unicode">Unicode编码/Unicode解码/Emoji编码/Emoji解码</a>
+<!--truncate-->
+
+## String.fromCodePoint
+
+```js
+String.fromCodePoint(9731, 9733, 9842, 0x2F804);
+// output: "☃★♲你"
+
+String.fromCodePoint(128512, 56832)
+// output: "😀\uDE00"
+
+String.fromCodePoint(128512)
+// output: "😀"
+
+String.fromCodePoint("0x"+"1f600");
+// output: "😀"
+
+String.fromCodePoint(127482,127480)
+// output: "🇺🇸"
+```
+
+<a href="https://gadgets.gotomorrow.dev/zh-CN/unicode">Unicode编码/Unicode解码/Emoji编码/Emoji解码</a>

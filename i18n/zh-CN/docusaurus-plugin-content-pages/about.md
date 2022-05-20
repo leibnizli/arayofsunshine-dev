@@ -10,4 +10,4 @@ title: 关于
 
 我目前在这里作为一名自由 Web 开发人员工作，除了为 Web 开发东西之外，我还在`gotomorrow.dev`上写博客。
 
-您可以通过在 GitHub 上关注我来了解我和博客。
+您可以通过 <a href="mailto:stormte@gmail.com">Email</a> 联系我。

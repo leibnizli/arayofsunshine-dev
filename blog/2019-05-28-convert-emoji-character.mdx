@@ -7,19 +7,60 @@ tags: [emoji]
 
 # Convert emoji character to Unicode number in JavaScript
 
-```js
-console.log('☃★♲'.codePointAt(1));
-// output: "9733"
+## String.prototype.codePointAt
 
-console.log(String.fromCodePoint(9731, 9733, 9842, 0x2F804));
+The `codePointAt` method returns a non-negative integer that is the Unicode code point value at the given position.
+
+<!--truncate-->
+
+```js
+'☃★♲'.codePointAt(0);
+// output: "9731"
+'☃★♲'.codePointAt(1);
+// output: "9733"
+'☃★♲'.codePointAt(2);
+// output: "9842"
+
+"😀".codePointAt(0);
+// output: "128512"
+"😀".codePointAt(1);
+// output: "56832"
+"😀".codePointAt(0).toString(16);
+// output: "1f600"
+'😀'.length
+// output: "2"
+
+"🇺🇸".codePointAt(0);
+// output: "127482"
+"🇺🇸".codePointAt(1);
+// output: "56826"
+"🇺🇸".codePointAt(2);
+// output: "127480"
+"🇺🇸".codePointAt(3);
+// output: "56824"
+'🇺🇸'.length
+// output: "4"
+```
+
+## String.fromCodePoint
+
+The static `String.fromCodePoint` method returns a string created by using the specified sequence of code points.
+
+```js
+String.fromCodePoint(9731, 9733, 9842, 0x2F804);
 // output: "☃★♲你"
 
-let hex = "😀".codePointAt(0).toString(16);
-console.log(hex);
-// output: 1f600
+String.fromCodePoint(128512, 56832);
+// output: "😀\uDE00"
 
-console.log(String.fromCodePoint("0x"+hex));
-// output: 😀
+String.fromCodePoint(128512);
+// output: "😀"
+
+String.fromCodePoint("0x"+"1f600");
+// output: "😀"
+
+String.fromCodePoint(127482,127480);
+// output: "🇺🇸"
 ```
 
 <a href="https://gadgets.gotomorrow.dev/unicode">Unicode encode/Unicode decode/Emoji encode/Emoji decode</a>
