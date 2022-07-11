@@ -6,9 +6,12 @@ import ReactPlayer from 'react-player';
 
 # Helm - hosts 文件管理
 
-Helm是一个`hosts`文件管理器，它使你能够编辑`hosts`文件并在它们之间切换。
+Helm是一个运行在mac OS系统的`hosts`文件管理器，Helm使你能够编辑`hosts`文件并在它们之间切换，每次切换的时候Helm会将公共文件（Original File）和激活的文件合并为一个文件写入到mac系统的`hosts`文件。
 
-![helm-app](https://user-images.githubusercontent.com/1193966/165983377-ad03ab24-26d4-46f6-a313-2b39b9713d13.png)
+可以在偏好（`⌘,`）中设置是否透明标题栏，可以在偏好中设置是否保持菜单栏运行(Keep running in menu bar when closing editor window)。假设你选择保持菜单栏运行，关闭编辑窗口后Helm并不会退出程序，而是以Menu Bar的形式运行，你可以通过Menu Bar快速切换不同环境的文件。
+
+![helm](https://user-images.githubusercontent.com/1193966/172979483-7b8071d9-61a1-4378-bdd6-1277049c1d3c.png)
+
 
 ## 安装
 
@@ -16,11 +19,17 @@ Helm是一个`hosts`文件管理器，它使你能够编辑`hosts`文件并在�
 
 ## 帮助
 
-启动后默认驻于系统右上任务栏。
+启动后即可添加不同的环境文件，第一次保存的时候软件会弹出对话框，点击**授权（Authorize）**，软件就可以获取`hosts`读写权限。
+
+接着再保存会第二次弹出对话框，此时需要对当前mac用户添加写入权限，按照提示复制命令行到终端（bash、iTerm）敲回车键运行，输入密码即可完成授权。
+
+此时2步授权操作已经完成，可以自由编辑组合hosts文件，从此以后不需要再授权。
+
+你还可以快速预览修改后的hosts效果。只需要在编辑界面按下快捷键：`Command＋shift + O` ，即可看到修改后的hosts文件。
+
+### 视频教程
 
 <ReactPlayer controls url='https://user-images.githubusercontent.com/1193966/169488957-0c88d5f0-a9e0-4a2c-94c6-8c2f99481b5e.mov' />
-
-第一次修改会出现选择文件的对话框，默认选择`hosts`文件后确认，这里是用来授权读写权限的。
 
 ## 评论
 * <a href="https://github.com/leibnizli/Helm/issues">Issues</a>

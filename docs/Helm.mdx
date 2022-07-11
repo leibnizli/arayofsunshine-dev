@@ -6,9 +6,11 @@ import ReactPlayer from 'react-player';
 
 # Helm - Hosts file manager
 
-Helm is a simple `hosts` file manager. Helm develops in swift.
+Helm is a simple `hosts` file manager. You can set whether the title bar is transparent or not in the preferences. Keep the status bar running can be set in preferences.
 
-![helm-app](https://user-images.githubusercontent.com/1193966/165983377-ad03ab24-26d4-46f6-a313-2b39b9713d13.png)
+Helm develops in swift.
+
+![helm](https://user-images.githubusercontent.com/1193966/172979483-7b8071d9-61a1-4378-bdd6-1277049c1d3c.png)
 
 ## Install
 
@@ -16,11 +18,17 @@ Helm is a simple `hosts` file manager. Helm develops in swift.
 
 ## Help
 
-After opening, it resides in the menu bar at the upper right corner of the system by default.
+After starting, you can add different environmental files. When the first saves, the software will pop up the dialog box. Click the **Authorize** to obtain the `hosts` read and write permissions.
+
+Then save the dialog box for the second time. At this time, you need to add writing permissions to the current MAC users. Copy the command line to the terminal (Bash, Iterm) to run the `enter` key to run, and enter the password to complete the authorization.
+
+At this time, the 2 -step authorization operation has been completed and can be freely edited and combined with the hosts file, and there is no need to authorize anymore.
+
+You can also quickly preview the modified hosts effect. Just press the shortcut key on the editing interface: `Command + Shift + O`, and you can see the modified hosts file.
+
+### Video tutorial
 
 <ReactPlayer controls url='https://user-images.githubusercontent.com/1193966/169488957-0c88d5f0-a9e0-4a2c-94c6-8c2f99481b5e.mov' />
-
-The first modification will appear a dialog box for selecting a file. By default, the `hosts` file is selected and confirmed. This is used to authorize read and write permissions.
 
 ## Comments
 * <a href="https://github.com/leibnizli/Helm/issues">Issues</a>
