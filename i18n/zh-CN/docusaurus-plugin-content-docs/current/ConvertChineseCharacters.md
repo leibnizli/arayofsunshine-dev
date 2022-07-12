@@ -23,10 +23,10 @@ Win/Linux: `ctrl+shift+p`, Mac: `cmd+shift+p`
 ## 演示
 
 ### 使用右键菜单
-![ConvertChineseCharacters1](https://cloud.githubusercontent.com/assets/1193966/12030060/63ded0e2-ae33-11e5-8f76-b9b2cc34e14e.gif)
+![ConvertChineseCharacters](./img/ConvertChineseCharacters-1.gif)
 
 ### 使用Command Palette
-![ConvertChineseCharacters2](https://cloud.githubusercontent.com/assets/1193966/12030061/63e3fac2-ae33-11e5-9a50-78b9ebf2d6e1.gif)
+![ConvertChineseCharacters](./img/ConvertChineseCharacters-2.gif)
 
 
 选择一个或多个字符从上下文菜单运行convertChineseCharacters，每一个字符将会被替换。

@@ -7,7 +7,7 @@ sidebar_position: 2
 WebFont is a font processing App,Support for macOS.It can export specific glyphs to SVG, PDF and PNG files. The color and size of the output can be set in preferences.
 
 
-![WebFont-mini-1](https://user-images.githubusercontent.com/1193966/99191185-006b0480-27a6-11eb-83db-03ad8da655c2.png)
+![WebFont-mini-1](./img/webfont.png)
 
 Keyboard shortcuts:
 

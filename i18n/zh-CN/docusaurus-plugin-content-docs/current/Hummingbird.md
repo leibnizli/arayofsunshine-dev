@@ -4,7 +4,7 @@ sidebar_position: 5
 
 `Hummingbird`是一个资源(jpg/png/webp/svg/gif/css/js/html)压缩客户端。
 
-![hummingbird](https://user-images.githubusercontent.com/1193966/160070323-f58e802b-3a05-40dd-95bf-fba2150ab01f.png)
+![hummingbird](./img/hummingbird.png)
 
 * jpg/png/webp/svg/gif/html压缩后会替换掉当前文件，css/js压缩后会生成一个带.min的新文件
 * 可以在在当前目录新建`source`文件夹并备份处理前的文件，可以在设置中开启

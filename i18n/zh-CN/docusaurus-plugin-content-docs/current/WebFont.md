@@ -7,7 +7,7 @@ sidebar_position: 2
 WebFont是一个字体处理客户端，它可以把字体文件中的指定字形导出为svg、pdf和png格式的文件，你可以在偏好设置中指定任意的颜色和尺寸。
 
 
-![WebFont-mini-1](https://user-images.githubusercontent.com/1193966/99191185-006b0480-27a6-11eb-83db-03ad8da655c2.png)
+![WebFont-mini-1](./img/webfont.png)
 
 ## 快捷键
 
