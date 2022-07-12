@@ -6,4 +6,4 @@ slug: /
 
 # Introduction
 
-Here are some product docs I've developed.
+Here are some product documentation introductions.
