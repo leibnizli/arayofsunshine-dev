@@ -103,7 +103,7 @@ const config = {
                 to: '/about',
               },
               {
-                label: '中文博客',
+                label: 'Chinese Blog',
                 href: 'https://blog.gotomorrow.dev',
               },
             ],
