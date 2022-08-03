@@ -12,18 +12,28 @@ Helm是一个运行在mac OS系统的`hosts`文件管理器，Helm使你能够�
 
 ![helm](./img/helm.png)
 
-
 ## 安装
 
 * <a href="https://apps.apple.com/cn/app/id1099472017">App Store</a>
 
 ## 帮助
 
+### 授权
+
 启动后即可添加不同的环境文件，第一次保存的时候软件会弹出对话框，点击**授权（Authorize）**，软件就可以获取`hosts`读写权限。
 
 接着再保存会第二次弹出对话框，此时需要对当前mac用户添加写入权限，按照提示复制命令行到终端（bash、iTerm）敲回车键运行，输入密码即可完成授权。
 
 此时2步授权操作已经完成，可以自由编辑组合hosts文件，从此以后不需要再授权。
+
+### 修改hosts后Chrome没生效
+
+在Helm执行保存操作，Helm会自动清除dns缓存。此时如果hosts没生效，有下面几种方式可以解决：
+
+* `command+shift+N`：使用无痕模式。
+* 在chrome打开`chrome://net-internals/#sockets`，点击`Flush socket pools`。
+
+### 技巧
 
 你还可以快速预览修改后的hosts效果。只需要在编辑界面按下快捷键：`Command＋shift + O` ，即可看到修改后的hosts文件。
 

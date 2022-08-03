@@ -24,7 +24,16 @@ Then save the dialog box for the second time. At this time, you need to add writ
 
 At this time, the 2 -step authorization operation has been completed and can be freely edited and combined with the hosts file, and there is no need to authorize anymore.
 
-You can also quickly preview the modified hosts effect. Just press the shortcut key on the editing interface: `Command + Shift + O`, and you can see the modified hosts file.
+### Chrome does not take effect after modifying hosts
+
+Perform the save operation in Helm, and Helm will automatically clear the dns cache. If the hosts do not take effect at this time, there are several ways to solve it:
+
+* `command+shift+N`: Start incognito session in a new window in Chrome.
+* Open `chrome://net-internals/#sockets` in chrome and click `Flush socket pools`.
+
+### Skill
+
+You can also quickly preview the modified hosts effect. Just press the shortcut key on the editing window: `Command + Shift + O`, and you can see the modified hosts file.
 
 ### Video tutorial
 

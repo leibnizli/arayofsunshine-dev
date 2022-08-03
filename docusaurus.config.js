@@ -56,6 +56,11 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {href: 'https://gadgets.gotomorrow.dev', label: 'Gadgets', position: 'left'},
           {
+            to: '/about',
+            position: 'left',
+            label: 'About',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           }
