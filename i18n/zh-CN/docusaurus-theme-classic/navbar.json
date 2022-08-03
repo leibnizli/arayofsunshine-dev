@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "item.label.Tutorial": {
-    "message": "npm run write-translations -- --locale文档",
+    "message": "文档",
     "description": "Navbar item with label Tutorial"
   },
   "item.label.Blog": {
