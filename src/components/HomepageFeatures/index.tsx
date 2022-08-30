@@ -23,12 +23,12 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'WebFont',
-    Svg: require('@site/static/img/WebFont.svg').default,
-    href: '/docs/WebFont',
+    title: 'FontMagic',
+    Svg: require('@site/static/img/FontMagic.svg').default,
+    href: '/docs/FontMagic',
     description: (
       <>
-        <Translate>WebFont is a font manipulation application that supports macOS. It can export specific glyphs to SVG, PDF and PNG files. The color and size of the output can be set in the preferences.</Translate>
+        <Translate>FontMagic is a font manipulation application that supports macOS. It can export specific glyphs to SVG, PDF and PNG files. The color and size of the output can be set in the preferences.</Translate>
       </>
     ),
   },

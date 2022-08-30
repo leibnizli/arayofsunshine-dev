@@ -2,12 +2,12 @@
 sidebar_position: 2
 ---
 
-# WebFont
+# FontMagic
 
-WebFont是一个字体处理客户端，它可以把字体文件中的指定字形导出为svg、pdf和png格式的文件，你可以在偏好设置中指定任意的颜色和尺寸。
+FontMagic是一个字体处理客户端，它可以把字体文件中的指定字形导出为svg、pdf和png格式的文件，你可以在偏好设置中指定任意的颜色和尺寸。
 
 
-![WebFont-mini-1](./img/webfont.png)
+![FontMagic-mini-1](./img/FontMagic.png)
 
 ## 快捷键
 
@@ -24,4 +24,4 @@ WebFont是一个字体处理客户端，它可以把字体文件中的指定字�
 * <a href="https://apps.apple.com/cn/app/id1181350496">App Store</a>
 
 ## 评论
-* <a href="https://github.com/leibnizli/WebFont/issues">Issues</a>
+* <a href="https://github.com/leibnizli/FontMagic/issues">Issues</a>

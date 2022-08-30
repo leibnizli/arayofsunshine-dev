@@ -269,8 +269,8 @@
   "Helm is a hosts file manager that runs on macOS. Helm enables you to edit hosts files and switch between them. Helm merges the original file and the active file into one file each time you switch. Write to the hosts file of the mac system.": {
     "message": "Helm是一个运行在mac OS系统的hosts文件管理器，Helm使你能够编辑hosts文件并在它们之间切换，每次切换的时候Helm会将公共文件（Original File）和激活的文件合并为一个文件写入到mac系统的hosts文件。"
   },
-  "WebFont is a font manipulation application that supports macOS. It can export specific glyphs to SVG, PDF and PNG files. The color and size of the output can be set in the preferences.": {
-    "message": "WebFont是一个字体处理客户端，它可以把字体文件中的指定字形导出为svg、pdf和png格式的文件，你可以在偏好设置中指定任意的颜色和尺寸。"
+  "FontMagic is a font manipulation application that supports macOS. It can export specific glyphs to SVG, PDF and PNG files. The color and size of the output can be set in the preferences.": {
+    "message": "FontMagic是一个字体处理客户端，它可以把字体文件中的指定字形导出为svg、pdf和png格式的文件，你可以在偏好设置中指定任意的颜色和尺寸。"
   },
   "A color picking app that supports macOS and can pick colors anywhere on the screen.": {
     "message": "一个取色App，支持macOS，可在屏幕任意位置取色。"
