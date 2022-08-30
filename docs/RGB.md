@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # RGB
 
-A color pick App, Support for macOS, It can pick a color form anywhere on the screen.
+A color picking app that supports macOS and can pick colors anywhere on the screen.
 
 ![RGB-App-Store](./img/rgb.png)
 
