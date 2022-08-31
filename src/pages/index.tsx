@@ -27,8 +27,8 @@ function HomepageFooter() {
         <h2><Translate>Sublime text Chinese character and Unicode conversion plugin</Translate></h2>
         <p className="hero__subtitle"><Translate>It allowing you to convert your .js, .json, and .css files.</Translate></p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/ConvertChineseCharacters">
-            <Translate>Quick Start</Translate>
+          <Link className="button button--secondary button--lg" to="https://github.com/leibnizli/ConvertChineseCharacters">
+            <Translate>Get Started</Translate>
           </Link>
         </div>
       </div>
