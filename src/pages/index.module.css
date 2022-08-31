@@ -9,6 +9,10 @@
     position: relative;
     overflow: hidden;
 }
+[data-theme='light'] .heroBanner {
+    color:#222;
+    background:#FBFBFB;
+}
 
 @media screen and (max-width: 996px) {
     .heroBanner {
