@@ -9,4 +9,9 @@ sidebar_position: 5
 * jpg/png/webp/svg/gif/html will replace the current file after compression, and a new file with .min will be generated after css/js compression
 * You can create a `source` folder in the current directory and back up the files before processing, which can be enabled in the settings
 
+## Install
+
+* <a href="https://drive.google.com/file/d/1oOKDEL0Wox9VdwZ8pcCZz0yyf2E63z1g/view?usp=sharing">**macOS v2.0.0**</a> (Not support the drag and drop folder compression)
+* <a href="https://drive.google.com/file/d/1eMLdviqWVWRv8gXT_d1W1uUZoIwIumVS/view?usp=sharing">**Windows v3.0.0**</a> (Support the drag and drop folder compression)
+
 [github](https://github.com/leibnizli/hummingbird)
