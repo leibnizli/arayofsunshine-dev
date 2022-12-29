@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'GOTOMORROW',
-  tagline: 'gotomorrow.dev',
-  url: 'https://gotomorrow.dev',
+  title: 'ASUNBEAM',
+  tagline: 'asunbeam.dev',
+  url: 'https://asunbeam.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'leibnizli', // Usually your GitHub org/user name.
-  projectName: 'gotomorrow.dev', // Usually your repo name.
+  projectName: 'asunbeam.dev', // Usually your repo name.
   //trailingSlash: false,
   presets: [
     [
@@ -42,9 +42,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'GOTOMORROW',
+        title: 'ASUNBEAM',
         logo: {
-          alt: 'GOTOMORROW',
+          alt: 'ASUNBEAM',
           src: 'img/logo.svg',
         },
         items: [
@@ -54,7 +54,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {href: 'https://gadgets.gotomorrow.dev', label: 'Gadgets', position: 'left'},
+          {href: 'https://gadgets.asunbeam.dev', label: 'Gadgets', position: 'left'},
           {
             to: '/about',
             position: 'left',
@@ -104,12 +104,12 @@ const config = {
               },
               {
                 label: 'Chinese Blog',
-                href: 'https://blog.gotomorrow.dev',
+                href: 'https://blog.asunbeam.dev',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GOTOMORROW, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ASUNBEAM, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
