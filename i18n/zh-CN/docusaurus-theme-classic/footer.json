@@ -19,10 +19,6 @@
     "message": "博客",
     "description": "The label of footer link with label=Blog linking to /blog"
   },
-  "link.item.label.Twitter": {
-    "message": "Twitter",
-    "description": "The label of footer link with label=Twitter linking to https://twitter.com/leibnizli"
-  },
   "link.item.label.About": {
     "message": "关于",
     "description": "The label of footer link with label=About linking to /about"

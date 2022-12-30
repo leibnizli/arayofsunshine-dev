@@ -40,7 +40,10 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={translate({
+        message: "A SUNBEAM",
+        description: 'The homepage title',
+      })}
       description="Hi! I’m Leibniz Li. I live in the Netherlands, and I’m the guy who manages this blog.">
       <HomepageHeader />
       <main>

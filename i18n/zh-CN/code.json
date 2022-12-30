@@ -1,6 +1,7 @@
 {
   "A SUNBEAM": {
-    "message": "一束阳光"
+    "message": "一束阳光",
+    "description": "The homepage title"
   },
   "Here you can find some gadgets": {
     "message": "这里有一些小工具"
@@ -234,9 +235,6 @@
   "It allowing you to convert your .js, .json, and .css files.": {
     "message": "允许你转换.js、.json和 .css 文件。"
   },
-  "Quick Start": {
-    "message": "快速开始"
-  },
   "theme.admonition.note": {
     "message": "备注",
     "description": "The default label used for the Note admonition (:::note)"
@@ -277,5 +275,16 @@
   },
   "A color picking app that supports macOS and can pick colors anywhere on the screen.": {
     "message": "一个取色App，支持macOS，可在屏幕任意位置取色。"
+  },
+  "Get Started": {
+    "message": "开始"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭侧边栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换显示侧边栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   }
 }
