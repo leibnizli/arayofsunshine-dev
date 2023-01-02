@@ -28,11 +28,11 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/leibnizli"
   },
   "copyright": {
-    "message": "Copyright © 2022 ASUNBEAM, Inc",
+    "message": "Copyright © 2022 ARAYOFSUNSHINE, Inc",
     "description": "The footer copyright"
   },
   "link.item.label.Chinese Blog": {
     "message": "中文博客",
-    "description": "The label of footer link with label=Chinese Blog linking to https://blog.asunbeam.dev"
+    "description": "The label of footer link with label=Chinese Blog linking to https://blog.arayofsunshine.dev"
   }
 }

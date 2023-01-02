@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ASUNBEAM',
-  tagline: 'asunbeam.dev',
-  url: 'https://asunbeam.dev',
+  title: 'ARAYOFSUNSHINE',
+  tagline: 'arayofsunshine.dev',
+  url: 'https://arayofsunshine.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'leibnizli', // Usually your GitHub org/user name.
-  projectName: 'asunbeam.dev', // Usually your repo name.
+  projectName: 'arayofsunshine.dev', // Usually your repo name.
   //trailingSlash: false,
   presets: [
     [
@@ -42,9 +42,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ASUNBEAM',
+        title: 'ARAYOFSUNSHINE',
         logo: {
-          alt: 'ASUNBEAM',
+          alt: 'ARAYOFSUNSHINE',
           src: 'img/logo.svg',
         },
         items: [
@@ -54,7 +54,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {href: 'https://gadgets.asunbeam.dev', label: 'Gadgets', position: 'left'},
+          {href: 'https://gadgets.arayofsunshine.dev', label: 'Gadgets', position: 'left'},
           {
             to: '/about',
             position: 'left',
@@ -104,12 +104,12 @@ const config = {
               },
               {
                 label: 'Chinese Blog',
-                href: 'https://blog.asunbeam.dev',
+                href: 'https://blog.arayofsunshine.dev',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ASUNBEAM, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ARAYOFSUNSHINE, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
