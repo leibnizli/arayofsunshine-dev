@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'leibnizli', // Usually your GitHub org/user name.
   projectName: 'arayofsunshine.dev', // Usually your repo name.
-  //trailingSlash: false,
+  trailingSlash: false,
   presets: [
     [
       'classic',
