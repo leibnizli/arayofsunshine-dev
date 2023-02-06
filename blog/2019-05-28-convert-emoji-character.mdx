@@ -13,6 +13,8 @@ The `codePointAt` method returns a non-negative integer that is the Unicode code
 <!--truncate-->
 
 ```js
+'☃★♲'.length
+// output: "3"
 '☃★♲'.codePointAt(0);
 // output: "9731"
 '☃★♲'.codePointAt(1);
@@ -20,15 +22,17 @@ The `codePointAt` method returns a non-negative integer that is the Unicode code
 '☃★♲'.codePointAt(2);
 // output: "9842"
 
+'😀'.length
+// output: "2"
 "😀".codePointAt(0);
 // output: "128512"
 "😀".codePointAt(1);
 // output: "56832"
 "😀".codePointAt(0).toString(16);
 // output: "1f600"
-'😀'.length
-// output: "2"
 
+'🇺🇸'.length
+// output: "4"
 "🇺🇸".codePointAt(0);
 // output: "127482"
 "🇺🇸".codePointAt(1);
@@ -37,8 +41,6 @@ The `codePointAt` method returns a non-negative integer that is the Unicode code
 // output: "127480"
 "🇺🇸".codePointAt(3);
 // output: "56824"
-'🇺🇸'.length
-// output: "4"
 ```
 
 ## String.fromCodePoint
