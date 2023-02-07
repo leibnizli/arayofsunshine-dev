@@ -23,7 +23,7 @@ function HomepageFooter() {
   return (
     <header className={clsx('hero', styles.heroBanner)} >
       <div className="container">
-        <h1 className={clsx('hero__title', styles.hero__title)}>ConvertChineseCharacters</h1>
+        <h1 className={clsx('hero__title')}>ConvertChineseCharacters</h1>
         <h2><Translate>Sublime text Chinese character and Unicode conversion plugin</Translate></h2>
         <p className="hero__subtitle"><Translate>It allowing you to convert your .js, .json, and .css files.</Translate></p>
         <div className={styles.buttons}>
