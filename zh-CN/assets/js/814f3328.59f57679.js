@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"\u6700\u8fd1\u6587\u7ae0","items":[{"title":"JavaScript\u8f6c\u6362emoji\u5b57\u7b26\u4e3aUnicode\u7f16\u7801","permalink":"/zh-CN/blog/convert-emoji-character-to-unicode-number-in-javascript","unlisted":false}]}')}}]);
