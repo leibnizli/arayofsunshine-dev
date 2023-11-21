@@ -6,6 +6,8 @@ sidebar_position: 4
 
 Sublime text中文字符与Unicode互相转换插件，允许你转换.js、.json和 .css 文件。
 
+如果你使用Sublime Text 2，你可以使用<a href="https://github.com/leibnizli/ConvertChineseCharactersFor2">ConvertChineseCharactersFor2</a>
+
 ## 功能
 
 * 中文字符转Unicode
