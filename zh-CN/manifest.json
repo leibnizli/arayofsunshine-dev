@@ -1,15 +1,15 @@
 {
   "name": "A RAY OF SUNSHINE",
   "short_name": "ARAYOFSUNSHINE",
-  "theme_color": "#2196f3",
-  "background_color": "#424242",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
   "display": "standalone",
   "scope": "./",
   "start_url": "./index.html",
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://arayofsunshine.dev/manifest.json"
+      "url": "/manifest.json"
     }
   ],
   "icons": [
