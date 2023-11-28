@@ -139,7 +139,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
+            content: '#000',
           },
           {
             tagName: 'meta',
@@ -160,7 +160,7 @@ const config = {
             tagName: 'link',
             rel: 'mask-icon',
             href: '/img/logo.svg',
-            color: 'rgb(37, 194, 160)',
+            color: '#000',
           },
           {
             tagName: 'meta',
