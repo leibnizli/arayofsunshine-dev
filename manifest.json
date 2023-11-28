@@ -1,8 +1,6 @@
 {
   "name": "A RAY OF SUNSHINE",
   "short_name": "ARAYOFSUNSHINE",
-  "theme_color": "#FFFFFF",
-  "background_color": "#FFFFFF",
   "display": "standalone",
   "scope": "./",
   "start_url": "./index.html",
