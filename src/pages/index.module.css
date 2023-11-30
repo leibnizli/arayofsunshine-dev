@@ -2,6 +2,42 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+.header {
+    position: relative;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header .container {max-width: 900px;}
+.PCalculator {
+    padding: 4rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+.PCalculator .container {max-width: 900px;}
+[data-theme='light'] .header {
+    color:#222;
+    background:#FBFBFB;
+}
+.headerImg img { max-width:500px; width:100%; }
+.PCalculatorImg img { max-width:380px; width:100%; }
+@media screen and (min-width: 996px) {
+    .PCalculatorBody {min-width:360px; }
+}
+@media screen and (max-width: 996px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+[data-theme='light'] .PCalculator {
+    color:#222;
+    background:#FBFBFB;
+}
 
 .heroBanner {
     padding: 4rem 0;
@@ -11,8 +47,8 @@
 }
 [data-theme='light'] .heroBanner {
     color:#222;
-    background:#FBFBFB;
 }
+
 [data-theme='light'] .hero__title {
     background:-webkit-linear-gradient(315deg,#42d392 25%,#647eff);
     -webkit-background-clip:text;

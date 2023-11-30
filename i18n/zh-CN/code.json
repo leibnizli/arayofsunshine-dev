@@ -6,6 +6,9 @@
   "Here you can find some gadgets": {
     "message": "这里有一些小工具"
   },
+  "A simple calculator": {
+    "message": "一个简单的计算器"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
