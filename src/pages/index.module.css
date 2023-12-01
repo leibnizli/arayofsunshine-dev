@@ -13,6 +13,7 @@
 
 }
 .header .container {max-width: 900px;}
+.headerImg img { max-width:500px; width:100%; }
 .PCalculator {
     padding: 4rem 2rem;
     position: relative;
@@ -23,10 +24,9 @@
     color:#222;
     background:#FBFBFB;
 }
-.headerImg img { max-width:500px; width:100%; }
 .PCalculatorImg img { max-width:380px; width:100%; }
 @media screen and (min-width: 996px) {
-    .PCalculatorBody {min-width:360px; }
+    .PCalculatorBody {min-width:360px; max-width:360px; }
 }
 @media screen and (max-width: 996px) {
     .container {

@@ -29,7 +29,7 @@ function PCalculator() {
         <div className={styles.PCalculatorImg}><img src="img/PCalculator.svg" alt="PCalculator"/></div>
         <div  className={styles.PCalculatorBody}>
           <h1 className={clsx('hero__title')}>PCalculator</h1>
-          <h2><Translate>A simple calculator</Translate></h2>
+          <h2><Translate>A simple calculator that supports addition, subtraction, multiplication and division.</Translate></h2>
           <p className="hero__subtitle">
             <Link className="button button--secondary" to="/docs/RCalculator">
               <Translate>Get Started</Translate>

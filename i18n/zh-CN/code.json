@@ -6,8 +6,8 @@
   "Here you can find some gadgets": {
     "message": "这里有一些小工具"
   },
-  "A simple calculator": {
-    "message": "一个简单的计算器"
+  "A simple calculator that supports addition, subtraction, multiplication and division.": {
+    "message": "一个简单的计算器，支持加、减、乘、除四则运算。"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
