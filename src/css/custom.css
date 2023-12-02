@@ -28,4 +28,35 @@
     --ifm-color-primary-lightest: #4fddbf;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-img {vertical-align:middle;}
+
+img {
+    vertical-align: middle;
+}
+
+.button {
+    height: 42px;
+    transition: box-shadow 0.15s ease 0s, transform 0.15s ease 0s;
+    will-change: box-shadow, transform;
+    background: rgb(252, 252, 253);
+    border: none;
+    box-shadow: rgba(45, 35, 66, 0.4) 0px 2px 4px, rgba(45, 35, 66, 0.3) 0px 7px 13px -3px, rgb(214, 214, 231) 0px -3px 0px inset;
+    min-width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.65;
+    font-weight: normal;
+}
+.button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0px 4px 8px, rgba(45, 35, 66, 0.3) 0px 7px 13px -3px, rgb(214, 214, 231) 0px -3px 0px inset;
+    /*transform: translateY(-2px);*/
+}
+.button:focus {
+    box-shadow: rgb(214, 214, 231) 0px 0px 0px 1.5px inset, rgba(45, 35, 66, 0.4) 0px 2px 4px, rgba(45, 35, 66, 0.3) 0px 7px 13px -3px, rgb(214, 214, 231) 0px -3px 0px inset;
+}
+.button--primary {
+    background: radial-gradient(100% 100% at 100% 0%, rgb(90, 218, 255) 0%, rgb(84, 104, 255) 100%);
+    box-shadow: rgba(45, 35, 66, 0.4) 0px 2px 4px, rgba(45, 35, 66, 0.3) 0px 7px 13px -3px, rgba(58, 65, 111, 0.5) 0px -3px 0px inset;
+}
+.button--primary:focus {
+    box-shadow: rgb(60, 79, 224) 0px 0px 0px 1.5px inset, rgba(45, 35, 66, 0.4) 0px 2px 4px, rgba(45, 35, 66, 0.3) 0px 7px 13px -3px, rgb(60, 79, 224) 0px -3px 0px inset;
+}

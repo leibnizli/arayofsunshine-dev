@@ -33,7 +33,8 @@ function PCalculator() {
           <p className="hero__subtitle">
             <Link className="button button--secondary" to="/docs/RCalculator">
               <Translate>Get Started</Translate>
-            </Link></p>
+            </Link>
+          </p>
         </div>
       </div>
     </div>
