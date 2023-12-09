@@ -7,7 +7,7 @@ sidebar_position: 2
 FontMagic is a font manipulation application that supports macOS. It can export specific glyphs to SVG, PDF and PNG files. The color and size of the output can be set in the preferences.
 
 
-![FontMagic-mini-1](./img/FontMagic.png)
+![FontMagic-mini-1](img/FontMagic.png)
 
 Keyboard shortcuts:
 
