@@ -20,4 +20,5 @@ Keyboard shortcuts:
 Right click to export the selected glyphs; or use the batch export from the menu.
 
 ## Install 
-* <a href="https://storage.googleapis.com/arayofsunshine/FontMagic1.10.0.zip">Download</a>
+
+* <a href="https://apps.apple.com/app/id1181350496">App Store</a>

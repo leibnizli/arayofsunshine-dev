@@ -21,4 +21,4 @@ FontMagic是一个字体处理客户端，它可以把字体文件中的指定�
 
 ## 下载
 
-* <a href="https://storage.googleapis.com/arayofsunshine/FontMagic1.10.0.zip">Download</a>
+* <a href="https://apps.apple.com/app/id1181350496">App Store</a>
