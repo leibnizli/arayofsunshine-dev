@@ -12,5 +12,5 @@ sidebar_position: 4
 
 ## 下载
 
-* <a href="https://apps.apple.com/app/id1625565060">App Store</a>（支持macOS Catalina+）
+* ~~App Store~~
 

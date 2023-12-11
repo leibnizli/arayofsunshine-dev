@@ -13,5 +13,5 @@ After you pick a color, Hex format code will automatically copied to your clipbo
 
 ## Download
 
-* <a href="https://apps.apple.com/app/id1625565060">App Store</a>
+* ~~App Store~~
 

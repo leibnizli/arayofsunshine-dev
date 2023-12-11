@@ -9,4 +9,8 @@ sidebar_position: 3
 * 计算过程中可以看到公式。
 * 最大保存50条计算记录。
 
+## 安装
+
+* ~~App Store~~
+
 <img src="/zh-CN/img/RCalculator-1.png" width="320"/>
