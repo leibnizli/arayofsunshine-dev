@@ -11,6 +11,7 @@ sidebar_position: 3
 
 ## 安装
 
-* ~~App Store~~
+* [App Store](https://apps.apple.com/app/rcalculator/id6473155011?platform=iphone)
 
-<img src="/zh-CN/img/RCalculator-1.png" width="320"/>
+
+![RCalculator.png](img%2FRCalculator.png)
