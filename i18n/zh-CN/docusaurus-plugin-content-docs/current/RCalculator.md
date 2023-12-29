@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# RCalculator
+# 小兔算算
 
 一个简单的计算器，支持加、减、乘、除四则运算。
 
