@@ -9,9 +9,11 @@ sidebar_position: 3
 * 计算过程中可以看到公式。
 * 最大保存50条计算记录。
 
+![RCalculator.png](img%2FRCalculator.png)
+
 ## 安装
 
 * [App Store](https://apps.apple.com/app/rcalculator/id6473155011?platform=iphone)
 
 
-![RCalculator.png](img%2FRCalculator.png)
+
