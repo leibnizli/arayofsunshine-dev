@@ -9,7 +9,6 @@ sidebar_position: 5
 * jpg/png/webp/svg/gif/html压缩后会替换掉当前文件，css/js压缩后会生成一个带.min的新文件
 * 可以在在当前目录新建`source`文件夹并备份处理前的文件，可以在设置中开启
 
-
 ## 安装
 
 * <a href="https://pan.baidu.com/s/1z6mu-MYvuAM2I5HNGBFdcg?pwd=hd2t">**macOS v4.0.0**</a> (支持拖放文件夹压缩)
@@ -22,5 +21,28 @@ sidebar_position: 5
 * (建议)将下载后的压缩包解压到目标文件夹，选择`Hummingbird.exe`右键单击 → 选择`发送到` → `桌面快捷方式`
 * (或)直接运行解压目录下`Hummingbird.exe`
 * 在Windows系统中.JPG后缀的文件可能会无法运行
+
+## 使用
+
+### jpg
+
+| Before                       | After                       |
+|------------------------------|-----------------------------|
+| ![svg](./img/jpg-before.jpg) | ![svg](./img/jpg-after.jpg) |
+| 41kb                         | 25kb                        |
+
+### png
+
+| Before                       | After                       |
+|------------------------------|-----------------------------|
+| ![svg](./img/png-before.png) | ![svg](./img/png-after.png) |
+| 28.9kb                       | 9.42kb                      |
+
+### svg
+
+| Before                       | After                       |
+|------------------------------|-----------------------------|
+| ![svg](./img/svg-before.svg) | ![svg](./img/svg-after.svg) |
+| 5.47kb                       | 3.55kb                      |
 
 [github](https://github.com/leibnizli/hummingbird)

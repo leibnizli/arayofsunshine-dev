@@ -21,4 +21,27 @@ sidebar_position: 5
 * <a href="https://pan.baidu.com/s/1z6mu-MYvuAM2I5HNGBFdcg?pwd=hd2t">**macOS v4.0.0**</a> (支持拖放文件夹压缩)
 * <a href="https://pan.baidu.com/s/1146zRGqLFlDR27a7rUgr5w">**Windows v3.0.0**</a> (支持拖放文件夹压缩)
 
+## Usage
+
+### jpg
+
+| Before                       | After                       |
+|------------------------------|-----------------------------|
+| ![svg](./img/jpg-before.jpg) | ![svg](./img/jpg-after.jpg) |
+| 41kb                         | 25kb                        |
+
+### png
+
+| Before                       | After                       |
+|------------------------------|-----------------------------|
+| ![svg](./img/png-before.png) | ![svg](./img/png-after.png) |
+| 28.9kb                       | 9.42kb                      |
+
+### svg
+
+| Before                       | After                       |
+|------------------------------|-----------------------------|
+| ![svg](./img/svg-before.svg) | ![svg](./img/svg-after.svg) |
+| 5.47kb                       | 3.55kb                      |
+
 [github](https://github.com/leibnizli/hummingbird)
