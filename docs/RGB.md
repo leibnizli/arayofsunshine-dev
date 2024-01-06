@@ -6,7 +6,7 @@ sidebar_position: 3
 
 A color picking app that supports macOS and can pick colors anywhere on the screen.
 
-![RGB-App-Store](img/rgb.png)
+![RGB-App-Store](img/RGB.png)
 
 After you pick a color, Hex format code will automatically copied to your clipboard.
 

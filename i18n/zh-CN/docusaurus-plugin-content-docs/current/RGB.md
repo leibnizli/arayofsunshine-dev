@@ -6,7 +6,7 @@ sidebar_position: 4
 
 一个取色App，支持macOS，可在屏幕任意位置取色。
 
-![RGB-App-Store](./img/rgb.png)
+![RGB-App-Store](./img/RGB.png)
 
 选择颜色后，十六进制格式代码将自动复制到剪贴板。
 
