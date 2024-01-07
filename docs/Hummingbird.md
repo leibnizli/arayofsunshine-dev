@@ -13,7 +13,7 @@ sidebar_position: 5
 
 ### Overseas users
 
-* <a href="https://github.com/leibnizli/hummingbird/releases/download/4.0.0/hummingbird-4.0.0-arm64.dmg">**macOS v4.0.0**</a> (Support the drag and drop folder compression)
+* <a href="https://github.com/leibnizli/hummingbird/releases/download/4.1.0/hummingbird-4.1.0-arm64.dmg">**macOS v4.0.0**</a> (Support the drag and drop folder compression)
 * <a href="https://drive.google.com/file/d/1eMLdviqWVWRv8gXT_d1W1uUZoIwIumVS/view?usp=sharing">**Windows v3.0.0**</a> (Support the drag and drop folder compression)
 
 ### Mainland users（大陆用户）
