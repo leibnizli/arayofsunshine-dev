@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://arayofsunshine.dev/blog</id>
-    <title>ARAYOFSUNSHINE Blog</title>
+    <title>ARayOfSunshine Blog</title>
     <updated>2019-05-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://arayofsunshine.dev/blog"/>
-    <subtitle>ARAYOFSUNSHINE Blog</subtitle>
+    <subtitle>ARayOfSunshine Blog</subtitle>
     <icon>https://arayofsunshine.dev/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Convert emoji character to Unicode number in JavaScript]]></title>
