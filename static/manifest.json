@@ -1,6 +1,6 @@
 {
   "name": "A RAY OF SUNSHINE",
-  "short_name": "ARAYOFSUNSHINE",
+  "short_name": "ARayOfSunshine",
   "display": "standalone",
   "scope": "./",
   "start_url": "./index.html",

@@ -1,8 +1,11 @@
 ---
+sidebar_label: Hummingbird
+title: 免费图片批量压缩软件 | Hummingbird
 sidebar_position: 5
 ---
+# Hummingbird
 
-`Hummingbird`是一个资源(jpg/png/webp/svg/gif/css/js/html)压缩客户端。
+`Hummingbird`是一个资源(jpg/png/webp/svg/gif/css/js/html)压缩软件，支持Windows、macOS。
 
 ![hummingbird](./img/hummingbird.png)
 

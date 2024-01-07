@@ -7,7 +7,7 @@ const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ARAYOFSUNSHINE',
+  title: 'ARayOfSunshine',
   tagline: 'arayofsunshine.dev',
   url: 'https://arayofsunshine.dev',
   baseUrl: '/',
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ARAYOFSUNSHINE',
+        title: 'ARayOfSunshine',
         logo: {
-          alt: 'ARAYOFSUNSHINE',
+          alt: 'ARayOfSunshine',
           src: 'img/logo.svg',
         },
         items: [
@@ -110,7 +110,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ARAYOFSUNSHINE, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ARayOfSunshine, Inc.`,
       },
       prism: {
         theme: lightTheme,

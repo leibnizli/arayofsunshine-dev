@@ -1,4 +1,6 @@
 ---
+sidebar_label: RGB
+title: macOS吸取颜色App | RGB
 sidebar_position: 4
 ---
 
