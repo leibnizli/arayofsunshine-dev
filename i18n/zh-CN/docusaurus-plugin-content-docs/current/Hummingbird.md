@@ -14,7 +14,7 @@ sidebar_position: 5
 
 ## 安装
 
-* <a href="https://pan.baidu.com/s/1z6mu-MYvuAM2I5HNGBFdcg?pwd=hd2t">**macOS v4.0.0**</a> (支持拖放文件夹压缩)
+* <a href="https://pan.baidu.com/s/1_i0fzJ916mGe6Kn-zLERsQ?pwd=z79c">**macOS v4.2.0**</a> (支持拖放文件夹压缩，支持多线程)
 * <a href="https://pan.baidu.com/s/1146zRGqLFlDR27a7rUgr5w">**Windows v3.0.0**</a> (支持拖放文件夹压缩)
 
 `macOS` 可能需要你在`系统偏好设置` → `安全性与隐私` 选择允许`任何来源`的应用程序
