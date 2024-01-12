@@ -1,4 +1,6 @@
 ---
+sidebar_label: Hummingbird
+title: Free image batch compression software | Hummingbird
 sidebar_position: 5
 ---
 
@@ -6,8 +8,8 @@ sidebar_position: 5
 
 ![hummingbird](./img/hummingbird.png)
 
-* jpg/png/webp/svg/gif/html will replace the current file after compression, and a new file with .min will be generated after css/js compression
-* You can create a `source` folder in the current directory and back up the files before processing, which can be enabled in the settings
+* jpg/png/webp/svg/gif/html will replace the current file after compression, and a new file with .min will be generated after css/js compression.
+* * Backup can be turned on in Settings, and hummingbird will back up the files to the `source` folder in the current directory.
 * Supports clicking to select multiple files, but does not support clicking to select a folder. If you need to compress multiple folders, you can only drag and drop them.
 
 ## Install

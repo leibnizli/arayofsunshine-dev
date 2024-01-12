@@ -1,4 +1,6 @@
 ---
+sidebar_label: RCalculator
+title: iOS Calculator | RCalculator
 sidebar_position: 3
 ---
 

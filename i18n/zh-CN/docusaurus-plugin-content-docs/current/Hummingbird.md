@@ -21,8 +21,6 @@ sidebar_position: 5
 * <a href="https://pan.baidu.com/s/1t09bmU48pWHecKQSt0dh8Q?pwd=qprq">**Windows v4.2.0**</a> (.zip)
 * <a href="https://pan.baidu.com/s/1146zRGqLFlDR27a7rUgr5w">**Windows v3.0.0**</a> (.zip，不支持多线程)
 
-`macOS` 可能需要你在`系统偏好设置` → `安全性与隐私` 选择允许`任何来源`的应用程序
-
 `Windows`(.zip)是一个解压文件夹而不是安装包。
 
 * (建议)将下载后的压缩包解压到目标文件夹，选择`Hummingbird.exe`右键单击 → 选择`发送到` → `桌面快捷方式`

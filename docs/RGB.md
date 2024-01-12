@@ -1,5 +1,7 @@
 ---
-sidebar_position: 3
+sidebar_label: RGB
+title: macOS Color Pick App | RGB
+sidebar_position: 4
 ---
 
 # RGB
